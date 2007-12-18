@@ -23,15 +23,15 @@ module SuperRewards
       service.post(params.merge(:sig => signature_for(params)))
     end
     
+  private
     def self.instance
       @instance ||= self.new
     end
-    
+  
     def service
       @service ||= Service.new
     end
 
-  private
     def signature_for(params)
       raw_string = params.inject([]) do |collection, pair|
         collection << pair.join("=")
