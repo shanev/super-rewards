@@ -13,7 +13,7 @@ A Ruby client for the Super Rewards API by KITN Media
 == SYNOPSIS:
 
   offer_code = SuperRewards::Client.offers_display(:iframe, uid)
-	points = SuperRewards::Client.get_points(uids).first.user.points
+  points = SuperRewards::Client.get_points(uids).first.user.points
 
 == REQUIREMENTS:
 
