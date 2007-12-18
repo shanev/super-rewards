@@ -1,0 +1,11 @@
+.DS_Store
+History.txt
+Manifest.txt
+README.txt
+Rakefile
+bin/super_rewards
+lib/super_rewards.rb
+lib/super_rewards/client.rb
+lib/super_rewards/parser.rb
+lib/super_rewards/version.rb
+test/test_super_rewards.rb
