@@ -1,5 +1,3 @@
-# -*- ruby -*-
-
 require 'rubygems'
 require 'hoe'
 require './lib/super_rewards.rb'
@@ -15,4 +13,8 @@ Hoe.new('SuperRewards', SuperRewards::VERSION) do |p|
   p.remote_rdoc_dir = ''
 end
 
-# vim: syntax=Ruby
+desc 'Tag release'
+task :tag do
+  svn_root = 'svn+ssh://drummr77@rubyforge.org/var/svn/superrewards'
+  sh %(svn cp #{svn_root}/trunk #{svn_root}/tags/rel-#{SuperRewards::VERSION} -m "Tag SuperRewards release #{SuperRewards::VERSION}")
+end
