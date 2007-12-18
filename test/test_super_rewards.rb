@@ -7,7 +7,7 @@ require 'super_rewards'
 
 class TestSuperRewards < Test::Unit::TestCase
   
-  TEST_UID = "8842239"
+  TEST_UID = "CHANGE ME"
   
   context "Using curl" do
     setup do
