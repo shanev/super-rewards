@@ -22,7 +22,7 @@ A Ruby client for the Super Rewards API by KITN Media
 
 == INSTALL:
 
-* sudo gem install super_rewards
+* sudo gem install superrewards
 
 == LICENSE:
 
