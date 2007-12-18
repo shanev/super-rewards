@@ -5,7 +5,7 @@ require 'hoe'
 require './lib/super_rewards.rb'
 
 Hoe.new('SuperRewards', SuperRewards::VERSION) do |p|
-  p.rubyforge_name = 'super_rewards'
+  p.rubyforge_name = 'superrewards'
   p.author = 'Shane Vitarana'
   p.email = 'shanev@gmail.com'
   p.summary = 'A Ruby client for the Super Rewards web service'
