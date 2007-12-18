@@ -16,5 +16,5 @@ end
 desc 'Tag release'
 task :tag do
   svn_root = 'svn+ssh://drummr77@rubyforge.org/var/svn/superrewards'
-  sh %(svn cp #{svn_root}/trunk #{svn_root}/tags/rel-#{SuperRewards::VERSION} -m "Tag SuperRewards release #{SuperRewards::VERSION}")
+  sh %(svn cp #{svn_root}/trunk #{svn_root}/tags/release-#{SuperRewards::VERSION} -m "Tag SuperRewards release #{SuperRewards::VERSION}")
 end
